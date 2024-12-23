@@ -1,0 +1,12 @@
+[Unit]
+Description="mysyslog daemon."
+
+[Service]
+Type=forking
+PIDFile=/run/mysyslog.pid
+ExecStart="/usr/sbin/mysyslogd"
+Restart=on-failure
+RestartSec=20s
+
+[Install]
+WantedBy=multi-user.target

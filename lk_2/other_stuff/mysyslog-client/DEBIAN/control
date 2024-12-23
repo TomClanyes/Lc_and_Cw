@@ -1,0 +1,10 @@
+Package: mysyslog-client
+Version: 1.0
+Architecture: amd64
+Maintainer: mysyslog-client <github.com/Retr0-code>
+Depends: libc6, libmysyslog
+Suggests: logging
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Description: Simple client for mysyslog library.

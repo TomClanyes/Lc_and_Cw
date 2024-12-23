@@ -1,0 +1,10 @@
+Package: mysyslog-meta
+Version: 1.0
+Architecture: amd64
+Maintainer: mysyslog-meta <github.com/Retr0-code>
+Depends: libc6, libmysyslog, mysyslog-client, mysyslogd
+Suggests: logging
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Description: Meta package mysyslog common utils.
